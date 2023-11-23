@@ -4,6 +4,9 @@ node {
       git url: 'https://github.com/Royal-Reddy-Yaparla/my_java_web_application.git', branch: 'main'
       mvnHome = tool 'maven'
    }
+   stage ('Code Quality') {
+      sh "'${mvnHome}/bin/mvn' sonar:sonar"
+  }
   stage ('Clean') {
       sh "'${mvnHome}/bin/mvn' clean"
   }
