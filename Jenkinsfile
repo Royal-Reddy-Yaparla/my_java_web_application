@@ -2,7 +2,6 @@ pipeline {
     agent any 
     tools {
          maven 'mavan'
-         jdk 'java'
     }
     stages {
         stage('Stage-1 : Clean') { 
