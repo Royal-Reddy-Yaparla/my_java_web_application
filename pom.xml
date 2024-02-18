@@ -14,19 +14,16 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <!-- <sonar.host.url>http://54.152.205.68:9000</sonar.host.url>
-        <sonar.organization>cloudbinaryio</sonar.organization>
-        <sonar.projectKey>cloudbinaryio</sonar.projectKey>
-        <sonar.login>sqp_ee60244f58bb57abe4bccfbcf177a686037bf14a</sonar.login> -->
-        <sonar.host.url>http://52.91.46.146:9000</sonar.host.url>
-        <sonar.organization>myJavaApp</sonar.organization>
-        <sonar.projectKey>myJavaApp</sonar.projectKey>
-        <sonar.login>sqp_f87d611df2ccf006c7280e79a37c85436f65b82d</sonar.login>
-
         <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>royal-devops</sonar.organization>
         <sonar.projectKey>royal-devops_myjavaapp</sonar.projectKey>
         <sonar.login>a7c642b53a2a74de2e30022dd91b29c9e97501d8</sonar.login> -->
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+         <sonar.organization>royalorgs</sonar.organization>
+         <sonar.projectKey>royalorgs_mywebapp</sonar.projectKey>
+         <sonar.login>7308312863eb8da55c1187c101b730777386ea47</sonar.login> -->
+
+                  
 
     </properties>
 
