@@ -21,9 +21,7 @@
          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
          <sonar.organization>royalorgs</sonar.organization>
          <sonar.projectKey>royalorgs_mywebapp</sonar.projectKey>
-         <sonar.login>7308312863eb8da55c1187c101b730777386ea47</sonar.login> -->
-
-                  
+         <sonar.login>7308312863eb8da55c1187c101b730777386ea47</sonar.login>
 
     </properties>
 
