@@ -28,6 +28,9 @@ node {
   stage ('Install') {
       sh "'${mvnHome}/bin/mvn'  install"
   }
+   stage ('Deploy') {
+      sh "'${mvnHome}/bin/mvn'  deploy"
+  }
 //   stage ('Deliver & Deployment') {
 //       sh 'curl -u admin:redhat@123 -T target/**.war "http://18.212.151.66:8080/manager/text/deploy?path=/Royal&update=true"'
 //   }
